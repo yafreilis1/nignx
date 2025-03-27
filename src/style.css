@@ -1,0 +1,118 @@
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e1f2; /* Fondo rosado claro */
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menú de navegación */
+header {
+    background-color: #c2a2d8; /* Lila */
+    width: 100%;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las secciones */
+#inicio, #habilidades {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#inicio h2, #habilidades h2 {
+    text-align: center;
+    color: #c2a2d8;
+}
+
+/* Estilo de la lista de habilidades */
+#habilidades-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#habilidades-lista li {
+    background-color: #d7b8e2; /* Lila suave */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#habilidades-caja {
+    background-color: #f0d9f7; /* Fondo suave rosado */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#habilidades-caja input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #c2a2d8;
+    border-radius: 4px;
+}
+
+#habilidades-caja button {
+    padding: 10px 15px;
+    background-color: #c2a2d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#habilidades-caja button:hover {
+    background-color: #a88ac4;
+}
+/* style.css */
+
+/* Estilo para el botón de eliminar */
+.eliminar-boton {
+    background-color: #f44336; /* Rojo brillante */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.eliminar-boton:hover {
+    background-color: #e53935; /* Rojo más oscuro */
+}
